@@ -1,5 +1,5 @@
 def generate_random_number
-  rand(7)
+  rand(1..5) + 1
 end
 
 def prompt_user
