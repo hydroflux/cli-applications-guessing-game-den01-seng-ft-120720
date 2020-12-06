@@ -28,10 +28,6 @@ def game_result(user_input, correct_answer)
   end
 end
 
-def play_again
-  #
-end
-
 def end_game
   puts "Goodbye!"
 end
