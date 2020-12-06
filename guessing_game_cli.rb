@@ -1,13 +1,3 @@
-require 'pry'
-
-def welcome
-  puts "Hello! Let's play a guessing game!"
-end
-
-# def generate_random_number
-#   rand(1..6)
-# end
-
 def generate_random_number
   rand(7)
 end
