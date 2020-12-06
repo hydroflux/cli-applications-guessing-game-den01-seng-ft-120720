@@ -24,7 +24,7 @@ def end_game
 end
 
 def run_guessing_game
-  correct_answer = (generate_random_number + 1).to_s
+  correct_answer = generate_random_number.to_s
   user_input = get_user_input
   if user_input == "exit"
     end_game
